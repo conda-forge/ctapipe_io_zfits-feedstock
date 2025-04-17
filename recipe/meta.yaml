@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_zfits" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_zfits-{{ version }}.tar.gz
-  sha256: 2b72954d63f97be51d0bbc14f30eb23435f08b5dc5bc2f579e6c5041f624ee6e
+  sha256: 0218ccbf3dea08397afd240c041c5e820f3f4a9b5e1d7074b34ca2277cb1fac5
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - protozfits >=2.7,<3.dev0
-    - ctapipe >=0.23.0,<0.25.0a0
+    - ctapipe >=0.23.0,<0.26.0a0
 
 test:
   imports:
