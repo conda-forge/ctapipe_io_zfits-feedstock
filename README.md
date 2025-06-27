@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-ctapipe_io_zfits-green.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ctapipe__io__zfits-green.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ctapipe_io_zfits.svg)](https://anaconda.org/conda-forge/ctapipe_io_zfits) |
 
 Installing ctapipe_io_zfits
 ===========================
