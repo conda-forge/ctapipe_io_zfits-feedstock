@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_zfits" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_zfits-{{ version }}.tar.gz
-  sha256: 40e2f1b378adf4494560400476b10e1369eecdb801c92d45a7842bbd7b7aa4b4
+  sha256: 8a07a48b0cf5178c348f857fef4501426e66041bac722f56874a76cddde775d3
 
 build:
   noarch: python
