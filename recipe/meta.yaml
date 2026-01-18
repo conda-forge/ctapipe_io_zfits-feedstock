@@ -1,6 +1,6 @@
 {% set name = "ctapipe_io_zfits" %}
 {% set version = "0.4.3" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - protozfits >=2.7.3,<3.dev0
-    - ctapipe >=0.24.0,<0.29.0a0
+    - ctapipe >=0.24.0
 
 test:
   imports:
