@@ -1,6 +1,6 @@
 {% set name = "ctapipe_io_zfits" %}
 {% set version = "0.6.0" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
