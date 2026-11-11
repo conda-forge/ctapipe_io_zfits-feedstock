@@ -25,11 +25,11 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - protozfits >=2.7.3,<3.dev0
-    - ctapipe >=0.28.0
+    - ctapipe-base >=0.33.0
 
 test:
   imports:
-    - ctapipe_io_zfits
+    - ctapipe_io_zfits.source
   commands:
     - pip check
   requires:
