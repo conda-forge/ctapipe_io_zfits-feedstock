@@ -1,5 +1,5 @@
 {% set name = "ctapipe_io_zfits" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ctapipe_io_zfits-{{ version }}.tar.gz
-  sha256: 9793ddb7da4ff2083ef9cb8f2f0bf91b3d50a6119de4d85d320e8b904c8be10f
+  sha256: f10b1330bf2c63f3372a7f5c4fc60caf160b1e20ef9fdd0b238db4c449698836
 
 build:
   noarch: python
